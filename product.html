@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#294734">
+    <title>Products - PlanTitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>PlanTitas</h1>
+        <p>Bring nature into your home.</p>
+    </header>
+
+    <nav id="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="product.html" aria-current="page">Products</a>
+        <a href="contacts.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="page-intro">
+            <p class="eyebrow">Shop our collection</p>
+            <h2>Choose your perfect plant!</h2>
+            <p>From easy-care favorites to eye-catching tropical plants, find a little green for every corner.</p>
+        </section>
+        <section class="products" id="products">
+            <div class="product-container">
+            <article class="product-card">
+                <img src="https://www.plantsforallseasons.co.uk/cdn/shop/files/20_-_30cm_Golden_Pothos_Epipremnum_in_Hanging_15cm_Pot.webp?v=1760080781" alt="Golden Pothos plant" loading="lazy">
+                <h3>Golden Pothos</h3>
+                <p>Easy-care indoor plant.</p>
+                <h4>₱250</h4>
+                <button type="button" onclick="buyPlant('Golden Pothos')">Buy Now</button>
+            </article>
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=600&q=80" alt="Succulent plant" loading="lazy">
+                <h3>Succulent</h3>
+                <p>A small plant for your desk.</p>
+                <h4>₱150</h4>
+                <button type="button" onclick="buyPlant('Succulent')">Buy Now</button>
+            </article>
+            <article class="product-card">
+                <img src="https://thumbs.dreamstime.com/b/beautiful-lavender-bouquet-golden-vase-displayed-light-purple-corner-stunning-rests-elegantly-positioned-nook-soft-sunlight-341813125.jpg?w=576" alt="Lavender plant" loading="lazy">
+                <h3>Lavender</h3>
+                <p>Blooms for a calming touch.</p>
+                <h4>₱600</h4>
+                <button type="button" onclick="buyPlant('Lavender')">Buy Now</button>
+            </article>
+            <article class="product-card">
+                <img src="https://www.plantpal.co.uk/cdn/shop/files/21cm-monstera-deliciosa-607.webp?v=1758991914&width=1100" alt="Monstera plant" loading="lazy">
+                <h3>Monstera</h3>
+                <p>A beautiful tropical plant.</p>
+                <h4>₱300</h4>
+                <button type="button" onclick="buyPlant('Monstera')">Buy Now</button>
+            </article>
+            <article class="product-card">
+                <img src="https://www.mydomaine.com/thmb/4UnbSzKiz0ZbB5vF7LX5XNum7PI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1566417254329_20190821-1566417255317-b9314f1d9f7a4668a466c5ffb1913a8f.jpg" alt="Peace Lily plant" loading="lazy">
+                <h3>Peace Lily</h3>
+                <p>Elegant leaves with a graceful look.</p>
+                <h4>₱350</h4>
+                <button type="button" onclick="buyPlant('Peace Lily')">Buy Now</button>
+            </article>
+            <article class="product-card">
+                <img src="https://www.plantsforallseasons.co.uk/cdn/shop/files/Strelitzia_Nicolai_Bird_of_Paradise_House_Plant_c0023a5c-ee1f-4570-a6e9-9dfcaca2dcfc.webp?v=1760041470" alt="Bird of Paradise plant" loading="lazy">
+                <h3>Bird of Paradise</h3>
+                <p>A bold tropical statement plant.</p>
+                <h4>₱550</h4>
+                <button type="button" onclick="buyPlant('Bird of Paradise')">Buy Now</button>
+            </article>
+            <article class="product-card">
+                <img src="https://cdn.uaeflowers.com/uploads/product/uaeflowers/MAR2026/DieffenbachiaPlantinWhitePot-1772447759924.webp" alt="Dieffenbachia plant" loading="lazy">
+                <h3>Dieffenbachia</h3>
+                <p>Green leaves with creamy patterns.</p>
+                <h4>₱200</h4>
+                <button type="button" onclick="buyPlant('Dieffenbachia')">Buy Now</button>
+            </article>
+            <article class="product-card">
+                <img src="https://images.squarespace-cdn.com/content/v1/54fbb611e4b0d7c1e151d22a/1610074066643-OP8HDJUWUH8T5MHN879K/Snake+Plant.jpg?format=2500w" alt="Snake Plant plant" loading="lazy">
+                <h3>Snake Plant</h3>
+                <p>Striking leaves and easy care.</p>
+                <h4>₱150</h4>
+                <button type="button" onclick="buyPlant('Snake Plant')">Buy Now</button>
+            </article>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function buyPlant(name) {
+            alert("Thank you for choosing " + name + "! This demo is for educational purposes only.");
+        }
+    </script>
+
+
+    <footer class="footer">
+        <p>All rights reserved &copy; 2026 PlanTitas.</p>
+        <p>Made with care, for plant lovers.</p>
+    </footer>
+</body>
+</html>
